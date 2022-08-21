@@ -23,13 +23,13 @@ TagManager:
   - 
   - Ground
   - City
-  - 
+  - ToCountry
   - BuildingPoint
   - BuildingChoiser
   - BuildBlock
-  - 
-  - 
-  - 
+  - Res
+  - Com
+  - Ind
   - 
   - 
   - 
