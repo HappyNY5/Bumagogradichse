@@ -6,4 +6,6 @@ public class IndScript : MonoBehaviour
     public int workers;
     public int peopleOnWork;
     public bool indWorking = false;
+
+    public int level;  
 }

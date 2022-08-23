@@ -3,8 +3,12 @@ using UnityEngine;
 
 public class BlackBox : MonoBehaviour
 {
-    [SerializeField] public List<GameObject> buildingsBlocks = new List<GameObject>();
-    [SerializeField] public int[] resourcesToBuild = new int[4];
+    [SerializeField] public List<int> buildingIndex = new List<int>();   // 0,1,2
+    [SerializeField] public int[] resourcesToBuild = new int[4];  
+    
+    [Space]
+    [SerializeField] public bool curIsBuild;   
+    [SerializeField] public int curBuildIndex;
    
     [Header("Res")]
     [SerializeField] public int people;
@@ -12,4 +16,7 @@ public class BlackBox : MonoBehaviour
     [Header("Ind")]
     [SerializeField] public int peopleWorking;
     [SerializeField] public int[] resourcesPerClick = new int[4];
+
+
+
 }
