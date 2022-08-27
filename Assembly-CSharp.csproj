@@ -46,6 +46,7 @@
      <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTweenExt.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\Scripts\CityController.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Archived\TestingPunch.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Framework\LTSeq.cs" />
@@ -54,6 +55,7 @@
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Scripts\PlayerData.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
@@ -69,6 +71,7 @@
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Scripts\PathSplines.cs" />
      <Compile Include="Assets\Scripts\BlackBox.cs" />
+     <Compile Include="Assets\Scripts\SaveSystem.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
@@ -87,7 +90,8 @@
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Scripts\PathBezier2d.cs" />
-     <Compile Include="Assets\Scripts\UIAnim.cs" />
+     <Compile Include="Assets\Scripts\UI\UIAnim.cs" />
+     <Compile Include="Assets\Scripts\CityData.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Prefabs\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -108,10 +112,8 @@
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
      <Compile Include="Assets\Prefabs\LeanTween\Examples\Scripts\Following.cs" />
      <Compile Include="Assets\Scripts\IndScript.cs" />
-     <Compile Include="Assets\Scripts\PlayerData.cs" />
-     <Compile Include="Assets\Scripts\SaveSystem.cs" />
-     <Compile Include="Assets\Scripts\CityData.cs" />
-     <Compile Include="Assets\Scripts\CityController.cs" />
+     <Compile Include="Assets\Scripts\UI\UIAnimBack.cs" />
+     <Compile Include="Assets\Scripts\UI\EndGame.cs" />
      <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Prefabs\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Prefabs\LeanTween\ReadMe.txt" />

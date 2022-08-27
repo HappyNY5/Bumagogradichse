@@ -19,7 +19,8 @@ public class SpawnBuilding : MonoBehaviour
         {
             playerManagerScript.ChangePlayerResources(playerManagerScript.selectedBlackBox.GetComponent<BlackBox>().resourcesToBuild, false);
 
-            playerManagerScript.selectedBlackBox.active = false;
+            playerManagerScript.selectedBlackBox.active = true;
+            playerManagerScript.selectedBlackBox.GetComponent<BoxCollider>().enabled = false;
             playerManagerScript.selectedBlackBox.GetComponent<BlackBox>().curIsBuild = true;
             Debug.Log(playerManagerScript.selectedBlackBox);
 
@@ -29,11 +30,16 @@ public class SpawnBuilding : MonoBehaviour
             Vector3 buildPos = playerManagerScript.selectedBlackBox.transform.position;
             Vector3 curPos = buildPos + new Vector3(0, 70, 0);
 
-            GameObject building = Instantiate(buildingTextures, curPos, Quaternion.Euler(curRot));
+            GameObject building = Instantiate(buildingTextures, curPos, Quaternion.Euler(curRot), playerManagerScript.selectedBlackBox.transform);
             
+            
+
+            int indexOfBlackBox = int.Parse((playerManagerScript.selectedBlackBox.name).Substring(13));
+            
+            string buildName = "Building" + indexOfBlackBox;
+            building.name = buildName;
             building.GetComponent<Rigidbody>().AddForce(Vector3.down * 50000f);            //Build Create speed
             
-            int indexOfBlackBox = int.Parse((playerManagerScript.selectedBlackBox.name).Substring(13));
 
             if (building.layer == 16) //Res
             {

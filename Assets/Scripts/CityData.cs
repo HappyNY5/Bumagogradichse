@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class CityData
 {
     public int[] cityOne;
+    public bool[] cityOneBool;
     public int[] cityTwo;
 
     public CityData(CityController _curCity)
@@ -15,6 +16,7 @@ public class CityData
         {
             case ("CIty"):
                 cityOne = _curCity.blackBoxesControl;
+                cityOneBool = _curCity.isWorking;
                 Debug.Log("Deb from CITY in City Data");  
                 break;
 

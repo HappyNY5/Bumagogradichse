@@ -14,6 +14,7 @@ public class BlackBox : MonoBehaviour
     [SerializeField] public int people;
 
     [Header("Ind")]
+    [SerializeField] public bool isWorking;
     [SerializeField] public int peopleWorking;
     [SerializeField] public int[] resourcesPerClick = new int[4];
 
